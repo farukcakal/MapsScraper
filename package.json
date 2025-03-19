@@ -1,0 +1,26 @@
+{
+  "name": "mapsscraper",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farukcakal/MapsScraper.git"
+  },
+  "author": "github.com/farukcakal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farukcakal/MapsScraper/issues"
+  },
+  "homepage": "https://github.com/farukcakal/MapsScraper#readme",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "xlsx": "^0.18.5"
+  }
+}
