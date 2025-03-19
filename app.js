@@ -14,9 +14,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question("Lütfen arama yapmak istediğiniz metni girin: ", async (searchQuery) => {
+rl.question("Please enter the search term: ", async (searchQuery) => {
     if (!searchQuery) {
-        console.error("Arama metni boş olamaz. Program sonlandırılıyor.");
+        console.error("Search term cannot be null. Terminating.");
         rl.close();
         process.exit(1);
     }
