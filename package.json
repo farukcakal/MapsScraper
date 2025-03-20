@@ -18,6 +18,7 @@
   "homepage": "https://github.com/farukcakal/MapsScraper#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "puppeteer": "^24.4.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
